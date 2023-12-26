@@ -9,11 +9,8 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
     const { prefix, sendMessageWTyping } = msgInfoObj;
 
     const owner = `
--------------------------------------------------------------- 
-    ─「  *Owner Commands* 」─
----------------------------------------------------------------
 
-${readMore}
+    ─「  *Owner Commands* 」─
 
 
 *${prefix}block <@mention>*
@@ -34,7 +31,7 @@ ${readMore}
 *${prefix}jid*
     _get jid for the chat_
 
-♥ мα∂є ωιтн ℓσνє, υѕє ωιтн ℓσνє ♥️`
+𝐒𝐀𝐃𝐈𝐐 🤖 𝐁𝐎𝐓`
 
     sendMessageWTyping(
         from,
