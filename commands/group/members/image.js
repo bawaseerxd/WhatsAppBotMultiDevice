@@ -42,7 +42,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
             }).on("end", () => {
                 sock.sendMessage(from, {
                     image: fs.readFileSync(ran),
-                    caption: 'Sent by eva',
+                    caption: 'Sent by 𝙎𝘼𝘿𝙄𝙌 🤖 𝘽𝙊𝙏',
                     mimetype: 'image/png',
                 }, { quoted: msg }).then(() => {
                     try {

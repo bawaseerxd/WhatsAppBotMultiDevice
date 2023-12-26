@@ -11,7 +11,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
     const memberData = await getMemberData(senderJid);
 
     if (type === "extendedTextMessage" && content.includes("stickerMessage")) {
-        let packName = authorName = "eva";
+        let packName = authorName = "𝐒𝐀𝐃𝐈𝐐 💗";
         if (args.includes('pack')) {
             packName = args.join(' ').split('pack ')[1].split('author')[0];
         }
@@ -32,8 +32,8 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
 
         try {
             const webpWithMetadata = await WSF.setMetadata(
-                packOrAuthor ? packName : evv ? evv : memberData.customStealText || 'eva',
-                packOrAuthor ? authorName : evv ? "" : memberData.customStealText ? "" : 'eva',
+                packOrAuthor ? packName : evv ? evv : memberData.customStealText || '𝐒𝐀𝐃𝐈𝐐 💗',
+                packOrAuthor ? authorName : evv ? "" : memberData.customStealText ? "" : '𝐒𝐀𝐃𝐈𝐐 💗',
                 media
             );
 
@@ -62,7 +62,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
             fs.unlinkSync(media);
         }
     } else {
-        return sendMessageWTyping(from, { text: `❌ *Reply on Sticker*` }, { quoted: msg });
+        return sendMessageWTyping(from, { text: `❌ *Abey bangali Sticker pr reply kar*` }, { quoted: msg });
     }
 }
 

@@ -22,7 +22,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
 
     // const listMessage = {
     //     text: "News By Categories",
-    //     footer: "Send by mybitbot",
+    //     footer: "Sent by 𝙎𝘼𝘿𝙄𝙌 🤖 𝘽𝙊𝙏",
     //     viewOnce: true,
     //     // title: "News By InShorts-Api",
     //     buttonText: "Click here",

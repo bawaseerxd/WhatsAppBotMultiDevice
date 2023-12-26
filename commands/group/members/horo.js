@@ -34,7 +34,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
 
     // const listMessage = {
     //     text: "Horoscope",
-    //     footer: "Send by eva",
+    //     footer: "Sent by 𝙎𝘼𝘿𝙄𝙌 🤖 𝘽𝙊𝙏",
     //     buttonText: "Click here",
     //     viewOnce: true,
     //     sections
