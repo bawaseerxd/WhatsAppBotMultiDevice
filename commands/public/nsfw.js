@@ -24,7 +24,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
     } else if (type === "extendedTextMessage" && content.includes("imageMessage")) {
         downloadFilePath = msg.message.extendedTextMessage.contextInfo.quotedMessage.imageMessage;
     } else {
-        return sendMessageWTyping(from, { text: `*Reply to Image Only*` }, { quoted: msg });
+        return sendMessageWTyping(from, { text: `*Aayen😹 Baigan*` }, { quoted: msg });
     }
     const stream = await downloadContentFromMessage(downloadFilePath, 'image');
     let buffer = Buffer.from([]);

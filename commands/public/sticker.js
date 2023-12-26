@@ -27,8 +27,8 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
         member.updateOne({ _id: senderJid }, { $inc: { dmLimit: -1 } });
     }
 
-    let packName = "eva";
-    let authorName = "eva";
+    let packName = "𝐒𝐀𝐃𝐈𝐐 💗";
+    let authorName = "";
 
     const isPackIncluded = args.includes('pack');
     const isAuthorIncluded = args.includes('author');
@@ -63,7 +63,7 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
         await writeFile(media, buffer);
         await buildSticker(media);
     } else {
-        sendMessageWTyping(from, { text: `❌ *Error reply to image or video only*` }, { quoted: msg });
+        sendMessageWTyping(from, { text: `❌ *Abey bangali media pr reply kar*` }, { quoted: msg });
         console.error('Error not replied');
     }
 
