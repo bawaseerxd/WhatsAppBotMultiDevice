@@ -44,8 +44,8 @@ ${readMore}
     _Set group welcome message!_
     _Auto set my bot "Welcome {user} to {group Name}."_
     _Set message will show in next line by default._
-    eg: Welcome Eva to EvaTest
-        Give respect and take respect!
+    eg: Welcome Bihari to Mazdoori
+        Give your 100% and take money!
     ${prefix}welcome reset 
     _Reset welcome message!_
 
@@ -71,7 +71,7 @@ ${readMore}
     _For attendance alert_
     _Eg: ${prefix}tagall message!_
 
-♥ мα∂є ωιтн ℓσνє, υѕє ωιтн ℓσνє ♥️`
+𝐒𝐀𝐃𝐈𝐐 🤖 𝐁𝐎𝐓`
 
     sock.sendMessage(from, { text: admin });
 }

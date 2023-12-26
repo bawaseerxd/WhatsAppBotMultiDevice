@@ -75,11 +75,11 @@ const handler = async (sock, msg, from, args, msgInfoObj) => {
                                 return;
                             }
                             if (isGroupAdmin) {
-                                sendMessageWTyping(from, { text: "❌ Cannot remove admin!" }, { quoted: msg });
+                                sendMessageWTyping(from, { text: "❌ Usko pehle admin se hata firr mai batata hoon! 😹" }, { quoted: msg });
                                 return;
                             }
                             sock.groupParticipantsUpdate(from, [taggedJid], "remove");
-                            sendMessageWTyping(from, { text: "✔ The number has been removed from the group!" }, { quoted: msg });
+                            sendMessageWTyping(from, { text: "✔ Pehli fursat mein nikal !" }, { quoted: msg });
                         }
                     }).catch(err => {
                         console.log(err);
